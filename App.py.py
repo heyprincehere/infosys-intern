@@ -20,7 +20,7 @@ def load_model(file_name):
 models = {
     'Linear Regression': load_model('Linear_regresssion.pkl'),
     'Ridge Regression': load_model('Ridge_Regression.pkl'),
-    'Lasso Regression': load_model('Lasso_Regression.pkl'),
+    'Lasso Regression': load_model('lasso_Regression.pkl'),
     'Random Forest': load_model('Random_Forest.pkl'),
     'Gradient Boost': load_model('Gradient_Boost.pkl')
 }
