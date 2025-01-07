@@ -86,9 +86,3 @@ if selected_model in ['Random Forest', 'Gradient Boost']:
         st.bar_chart(importance_df.set_index('Feature'))
     except AttributeError:
         st.warning("Feature importances not available for the selected model.")
-
-
-
-# Footer
-st.markdown("---")
-st.markdown("Developed by Batch-2")
